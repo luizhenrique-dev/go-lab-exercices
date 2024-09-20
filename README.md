@@ -9,6 +9,11 @@ A simple Go repository focused on solving algorithmic challenges and small exerc
 
 ## Requirements
 - Go 1.22+ (or higher)
+- Library `testify` to run the tests
+   ```go
+    go get github.com/stretchr/testify
+    go mod tidy
+   ```
 
 ## How to Use
 1. Clone the repository.
